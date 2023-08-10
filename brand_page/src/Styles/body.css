@@ -1,0 +1,66 @@
+#body{
+    display:flex;
+    max-width: 1200px;
+    height:calc(100vh-72px);
+    justify-content: space-around;
+    align-items: center;
+    margin : 0 auto;
+}
+
+#brand_details{
+    display: flex;
+    flex-direction: column;
+    gap:36px;
+}
+
+#brand_name{
+    /* text-align: left; */
+    line-height: 102px;
+    font-weight: 800;
+    font-size: 108px;
+     
+} 
+
+#brand_info p{
+    font-weight: 600;
+    max-width: 400px;
+    color:#605e5e;
+}
+
+#brand_btn{
+    display: flex;
+    gap:40px;
+
+}
+
+#brand_btn button{
+    font-size: 24px;
+}
+#category{
+    all:unset;
+    padding:6px 16px;
+    background: transparent;
+    background-color: white;
+    border: 1px solid black;
+    height:32px;
+    color:605e5e;
+    font-weight: 500;
+}
+#shop_now{
+    all:unset;
+    padding:6px 16px;
+    background-color: red;
+    height:32px;
+    color:white;
+    font-weight: 500;
+}
+
+#ecommerce_logo p{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#brand_logo{
+    display:flex;
+    gap:16px;
+}

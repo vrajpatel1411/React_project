@@ -1,20 +1,20 @@
 import React from 'react'
-
+import '../Styles/nav.css'
 function Nav(){
     return(
-        <React.Fragment>
+        <nav>
             <div className="logo">
                 <img src="/Images/brand_logo.png" alt=""/>
       
             </div>
             <ul>
-            <li href="#">Menu</li>
-            <li href="#">Location</li>
-            <li href="#">About</li>
-            <li href="#">Contact</li>
+                <li href="#">Menu</li>
+                <li href="#">Location</li>
+                <li href="#">About</li>
+                <li href="#">Contact</li>
             </ul>
             <button>Login</button>
-        </React.Fragment>
+        </nav>
     );
 
 }
