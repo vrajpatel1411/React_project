@@ -1,7 +1,7 @@
 #body{
     display:flex;
     max-width: 1200px;
-    height:calc(100vh-72px);
+    height:fit-content;
     justify-content: space-around;
     align-items: center;
     margin : 0 auto;
@@ -10,14 +10,15 @@
 #brand_details{
     display: flex;
     flex-direction: column;
-    gap:36px;
+    gap:10px;
+    margin:0; 
 }
 
 #brand_name{
     /* text-align: left; */
-    line-height: 102px;
-    font-weight: 800;
-    font-size: 108px;
+    line-height: 90px;
+    font-weight: 800px;
+    font-size: 90px;
      
 } 
 
@@ -25,6 +26,7 @@
     font-weight: 600;
     max-width: 400px;
     color:#605e5e;
+    margin:0;
 }
 
 #brand_btn{
@@ -63,4 +65,39 @@
 #brand_logo{
     display:flex;
     gap:16px;
+}
+
+@media only screen and (max-width: 1500px){
+    #body{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #brand_image{
+        width:90%;
+        height: fit-content;
+        
+        padding: 2%;
+    }
+    #brand_image img{
+        
+        width:100%;
+        height: 40%;
+        
+    }
+    #brand_details{
+        width:90%;
+        padding:2%;
+        height: fit-content;
+        gap:20px;
+    }
+    #brand_details #brand_info #brand_name{
+        font-size: 50px;
+        line-height: 60px;
+        margin:0;
+    }
+    #brand_info p{
+        margin:0;
+        max-width:90%;
+    }
 }
